@@ -1,0 +1,157 @@
+.navbar-nav .nav-link:hover {
+  color: black !important;
+  transition: 0.3s;
+}
+ body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.hero-section {
+    background: url(./11.jpg!f305cw) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+.hero-content {
+    z-index: 2;
+    position: relative;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f8f5f5;
+}
+
+.hero-content h3 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #fdfafa;
+}
+
+.btn-shop {
+      padding: 10px 30px;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      background-color: #f51818;
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+}
+    .btn-shop:hover {
+      background-color: #d10909;
+      transform: scale(1.05);
+    }
+     .card {
+        width: 18rem;
+        margin: 1rem;
+        border-radius: 15px;
+        border: 2px solid #e4140d;
+        background-color: #faf2f2;
+      }
+    .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0px 0px 2px 5px rgb(236, 42, 42);
+        
+      }
+
+      .card-title {
+        color: #df1223;
+        font-weight: bold;
+      }
+
+    .card img {
+        height: 250px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+
+      h1#Product {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #eb2424;
+        font-weight: 600;
+      }
+       .btn-shop-card {
+        width: 100%;
+        background-color: #db0505;
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .btn-shop-card:hover {
+        background-color: #e00b0b;
+        transform: scale(1.05);
+      }
+      h1#re {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #e20c0c;
+        font-weight: 600;
+      }
+        .testimonial-section {
+        background-color: #fef6f8;
+        padding: 50px 0;
+        text-align: center;
+      }
+      .testimonial-card {
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 20px;
+      }
+      .testimonial-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 15px;
+      }
+      .testimonial-name {
+        font-weight: bold;
+        margin-top: 15px;
+      }
+        .contact-section {
+        background-color: #fff;
+        padding: 60px 0;
+        text-align: center;
+      }
+         h1#contact {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #e00c0c;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    footer {
+        margin-top: 50px;
+        background-color: #fa1919;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 0.9rem;
+        color: #0a0a0a;
+    }
